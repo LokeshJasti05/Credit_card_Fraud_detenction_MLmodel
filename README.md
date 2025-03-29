@@ -1,7 +1,9 @@
-📌 Credit Card Fraud Detection
+📌 Credit Card Fraud Detection:
+
 A Machine Learning model to detect fraudulent credit card transactions. This project leverages data preprocessing, feature engineering, and ML algorithms to classify transactions as fraudulent or genuine.
 
-🚀 Features
+🚀 Features:
+
 Exploratory Data Analysis (EDA)
 
 Data Preprocessing (Handling Missing Data, Scaling, etc.)
@@ -10,7 +12,8 @@ Fraud Detection using Machine Learning
 
 Model Evaluation (Accuracy, Precision, Recall, F1-score)
 
-🛠️ Tech Stack
+🛠️ Tech Stack:
+
 Language: Python
 
 Libraries: Pandas, NumPy, Scikit-Learn, Matplotlib, Seaborn
@@ -18,7 +21,8 @@ Libraries: Pandas, NumPy, Scikit-Learn, Matplotlib, Seaborn
 ML Algorithms: Naïve Bayes, Logistic Regression, Random Forest
 
 
-📊 Dataset
+📊 Dataset:|
+
 
 Source: Kaggle - Credit Card Fraud Dataset
 
@@ -34,7 +38,9 @@ V1, V2, ..., V28 (Anonymized features)
 
 Class (Target variable: 0 = Normal, 1 = Fraud)
 
-🖥️ Installation & Usage
+🖥️ Installation & Usage:
+
+
 🔹 1. Clone the Repository
             git clone https://github.com/LokeshJasti05/Credit_card_Fraud_detection_MLmodel.git
             cd Credit_card_Fraud_detection_MLmodel
@@ -46,7 +52,8 @@ Class (Target variable: 0 = Normal, 1 = Fraud)
 🔹 3. Run the Jupyter Notebook and run all cells
 
 
-📈 Results & Evaluation
+📈 Results & Evaluation:
+
 Model trained using Bayes Decision Theorem achieved XX% accuracy.
 
 Evaluation metrics:
@@ -66,13 +73,16 @@ For class 0: 99.00%
 For class 1: 11.00%
 
 
-🤝 Contributing
+🤝 Contributing:
+
 Contributions are welcome! Fork this repo and submit a pull request with improvements.
 
-📜 License
+📜 License:
+
 This project is licensed under the MIT License.
 
-📬 Contact
+📬 Contact:
+
 For any questions, reach out via:
 📧 Email: lokesh_jasti@yahoo.com
 🔗 GitHub: LokeshJasti05
