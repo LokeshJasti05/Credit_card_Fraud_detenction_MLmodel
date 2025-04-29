@@ -1,96 +1,97 @@
-📌 Credit Card Fraud Detection:
+# 📌 Credit Card Fraud Detection
 
 A Machine Learning model to detect fraudulent credit card transactions. This project leverages data preprocessing, feature engineering, and ML algorithms to classify transactions as fraudulent or genuine.
 
-🚀 Features:
+---
 
-Exploratory Data Analysis (EDA)
+## 🚀 Features
 
-Data Preprocessing (Handling Missing Data, Scaling, etc.)
+- Exploratory Data Analysis (EDA)
+- Data Preprocessing (Handling Missing Data, Scaling, etc.)
+- Fraud Detection using Machine Learning
+- Model Evaluation (Accuracy, Precision, Recall, F1-score)
 
-Fraud Detection using Machine Learning
+---
 
-Model Evaluation (Accuracy, Precision, Recall, F1-score)
+## 🛠️ Tech Stack
 
-🛠️ Tech Stack:
+**Language**: Python  
+**Libraries**: Pandas, NumPy, Scikit-Learn, Matplotlib, Seaborn  
+**ML Algorithms**: Naïve Bayes, Logistic Regression, Random Forest
 
-Language: Python
+---
 
-Libraries: Pandas, NumPy, Scikit-Learn, Matplotlib, Seaborn
+## 📊 Dataset
 
-ML Algorithms: Naïve Bayes, Logistic Regression, Random Forest
+**Source**: Kaggle - Credit Card Fraud Dataset  
+**Description**: This dataset contains credit card transactions labeled as fraudulent (1) or non-fraudulent (0).  
+**Features**:
+- `Time`, `Amount` (Transaction details)
+- `V1` to `V28` (Anonymized PCA components)
+- `Class` (Target variable: 0 = Normal, 1 = Fraud)
 
+---
 
+## 🖥️ Installation & Usage
 
+### 🔹 1. Clone the Repository
 
-📊 Dataset:|
+```bash
+git clone https://github.com/LokeshJasti05/Credit_card_Fraud_detection_MLmodel.git
+cd Credit_card_Fraud_detection_MLmodel
+```
 
+### 🔹 2. Install Dependencies
 
+```bash
+pip install -r requirements.txt
+```
 
+### 🔹 3. Run the Jupyter Notebook
 
-Source: Kaggle - Credit Card Fraud Dataset
+Open and run all cells in the notebook to train and evaluate the model.
 
-Description: This dataset contains credit card transactions labeled as fraudulent (1) or non-fraudulent (0).
+---
 
-Description: This dataset contains credit card transactions labeled as fraudulent (1) or non-fraudulent (0).
+## 📌 Note
 
-Features:
+- If you want to **deploy this model via API (e.g., Flask, FastAPI)** for use in a website or web service, use the **model without the Gradio UI**.
+- If you want to **test the model manually**, especially for learning or internal evaluation, use the **model with the Gradio UI** for an interactive experience.
 
-Time, Amount (Transaction details)
+---
 
-V1, V2, ..., V28 (Anonymized features)
+## 📈 Results & Evaluation
 
-Class (Target variable: 0 = Normal, 1 = Fraud)
+Model trained using Bayes Decision Theorem achieved **97.64% accuracy**.
 
-🖥️ Installation & Usage:
+**Evaluation Metrics**:
 
+| Metric   | Class 0 | Class 1 |
+|----------|---------|---------|
+| Precision | 100.00% | 6.00%   |
+| Recall    | 98.00%  | 85.00%  |
+| F1-score  | 99.00%  | 11.00%  |
 
-🔹 1. Clone the Repository
-            git clone https://github.com/LokeshJasti05/Credit_card_Fraud_detection_MLmodel.git
-            cd Credit_card_Fraud_detection_MLmodel
+---
 
-🔹 2. Install Dependencies
-            pip install -r requirements.txt
+## 🤝 Contributing
 
-  
-🔹 3. Run the Jupyter Notebook and run all cells
+Contributions are welcome!  
+Fork this repo and submit a pull request with improvements.
 
+---
 
-📈 Results & Evaluation:
-
-Model trained using Bayes Decision Theorem achieved XX% accuracy.
-
-Evaluation metrics:
-
-Accuracy: 97.64%
-
-Precision:
-For class 0: 100.00%
-For class 1: 6.00%
-
-Recall:
-For class 0: 98.00%
-For class 1: 85.00%
-
-F1-score:
-For class 0: 99.00%
-For class 1: 11.00%
-
-
-🤝 Contributing:
-
-Contributions are welcome! Fork this repo and submit a pull request with improvements.
-
-📜 License:
+## 📜 License
 
 This project is licensed under the MIT License.
 
-📬 Contact:
+---
 
-For any questions, reach out via:
-📧 Email: lokesh_jasti@yahoo.com
-🔗 GitHub: LokeshJasti05
+## 📬 Contact
 
-🚀 Happy Coding!
-Let me know if you want any further modifications! 😊
+**📧 Email**: lokesh_jasti@yahoo.com  
+**🔗 GitHub**: [LokeshJasti05](https://github.com/LokeshJasti05)
 
+---
+
+🚀 *Happy Coding!*
